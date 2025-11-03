@@ -1,6 +1,6 @@
-# Para 6.0 — CGCNN Multi-task Training and Analysis Tool
+#  A Synergistic Strategy for Data-constrained Deep Learning in Materials Science
 
-This is a multi-task learning experiment repository based on the Crystal Graph Convolutional Neural Network (CGCNN), containing training scripts, grid search scripts, logging tools, and small utilities for plotting and data merging. This project is used to simultaneously predict the work function and band gap of materials, and supports conditional loss (based on metal/semiconductor classification) and several optional auxiliary tasks.
+This is a attention pooling with multi-task learning experiment repository based on the Crystal Graph Convolutional Neural Network (CGCNN), containing training scripts, grid search scripts, logging tools, and small utilities for plotting and data merging. This project is used to simultaneously predict the work function and band gap of materials, and supports conditional loss (based on metal/semiconductor classification) and several optional auxiliary tasks.
 
 ## Directory Structure (Simplified)
 
@@ -111,4 +111,5 @@ This module is responsible for generating timestamped log files based on `run_id
 Other scripts like `plot_gap_predictions.py` and `merge_work_band.py` depend on or work with these log/result outputs, but they are independent tools themselves.
 
 ----
+
 
